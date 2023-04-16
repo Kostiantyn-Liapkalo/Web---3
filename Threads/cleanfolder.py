@@ -145,7 +145,7 @@ def command_parser(user_command: str, COMMANDS: dict):
 def main():
     while True:
         print('Print clean and address your folder',
-              'for MacOS: clean /Folder/Trash',
+              'for Unix: clean /Folder/Trash',
               'for Windows: clean C:\Folder\Trash', sep='\n')
         user_command = input('Enter you command >>> ')
         command, data = command_parser(user_command, COMMANDS)
