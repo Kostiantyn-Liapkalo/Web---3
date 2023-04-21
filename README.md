@@ -1,7 +1,7 @@
-# Web-3
+## Web-Processes-Threads
 
 ----------------------------------------------------------------------------------------------------------
-Threds:
+Threads:
 
 The program sorts the files in the specified folder by extension using multiple threads.
 
